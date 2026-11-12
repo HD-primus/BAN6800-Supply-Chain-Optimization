@@ -1,0 +1,54 @@
+dataset_column,dictionary_field,description,crosswalk_status
+Type,Type,Type of transaction made,Matched after trimming/case normalisation
+Days for shipping (real),Days for shipping (real),Actual shipping days of the purchased product,Matched after trimming/case normalisation
+Days for shipment (scheduled),Days for shipment (scheduled),Days of scheduled delivery of the purchased product,Matched after trimming/case normalisation
+Benefit per order,Benefit per order,Earnings per order placed,Matched after trimming/case normalisation
+Sales per customer,Sales per customer,Total sales per customer made per customer,Matched after trimming/case normalisation
+Delivery Status,Delivery Status,"Delivery status of orders: Advance shipping , Late delivery , Shipping canceled , Shipping on time",Matched after trimming/case normalisation
+Late_delivery_risk,Late_delivery_risk,"Categorical variable that indicates if sending is late (1), it is not late (0).",Matched after trimming/case normalisation
+Category Id,Category Id,Product category code,Matched after trimming/case normalisation
+Category Name,Category Name,Description of the product category,Matched after trimming/case normalisation
+Customer City,Customer City,City where the customer made the purchase,Matched after trimming/case normalisation
+Customer Country,Customer Country,Country where the customer made the purchase,Matched after trimming/case normalisation
+Customer Email,Customer Email,Customer's email,Matched after trimming/case normalisation
+Customer Fname,Customer Fname,Customer name,Matched after trimming/case normalisation
+Customer Id,Customer Id,Customer ID,Matched after trimming/case normalisation
+Customer Lname,Customer Lname,Customer lastname,Matched after trimming/case normalisation
+Customer Password,Customer Password,Masked customer key,Matched after trimming/case normalisation
+Customer Segment,Customer Segment,"Types of Customers: Consumer , Corporate , Home Office",Matched after trimming/case normalisation
+Customer State,Customer State,State to which the store where the purchase is registered belongs,Matched after trimming/case normalisation
+Customer Street,Customer Street,Street to which the store where the purchase is registered belongs,Matched after trimming/case normalisation
+Customer Zipcode,Customer Zipcode,Customer Zipcode,Matched after trimming/case normalisation
+Department Id,Department Id,Department code of store,Matched after trimming/case normalisation
+Department Name,Department Name,Department name of store,Matched after trimming/case normalisation
+Latitude,Latitude,Latitude corresponding to location of store,Matched after trimming/case normalisation
+Longitude,Longitude,Longitude corresponding to location of store,Matched after trimming/case normalisation
+Market,Market,"Market to where the order is delivered : Africa , Europe , LATAM , Pacific Asia , USCA",Matched after trimming/case normalisation
+Order City,Order City,Destination city of the order,Matched after trimming/case normalisation
+Order Country,Order Country,Destination country of the order,Matched after trimming/case normalisation
+Order Customer Id,Order Customer Id,Customer order code,Matched after trimming/case normalisation
+order date (DateOrders),order date (DateOrders),Date on which the order is made,Matched after trimming/case normalisation
+Order Id,Order Id,Order code,Matched after trimming/case normalisation
+Order Item Cardprod Id,Order Item Cardprod Id,Product code generated through the RFID reader,Matched after trimming/case normalisation
+Order Item Discount,Order Item Discount,Order item discount value,Matched after trimming/case normalisation
+Order Item Discount Rate,Order Item Discount Rate,Order item discount percentage,Matched after trimming/case normalisation
+Order Item Id,Order Item Id,Order item code,Matched after trimming/case normalisation
+Order Item Product Price,Order Item Product Price,Price of products without discount,Matched after trimming/case normalisation
+Order Item Profit Ratio,Order Item Profit Ratio,Order Item Profit Ratio,Matched after trimming/case normalisation
+Order Item Quantity,Order Item Quantity,Number of products per order,Matched after trimming/case normalisation
+Sales,Sales,Value in sales,Matched after trimming/case normalisation
+Order Item Total,Order Item Total,Total amount per order,Matched after trimming/case normalisation
+Order Profit Per Order,Order Profit Per Order,Order Profit Per Order,Matched after trimming/case normalisation
+Order Region,Order Region,"Region of the world where the order is delivered :  Southeast Asia ,South Asia ,Oceania ,Eastern Asia, West Asia , West of USA , US Center , West Africa, Central Africa ,North Africa ,Western Europe ,Northern , Caribbean , South America ,East Africa ,Southern Europe , East of USA ,Canada ,Southern Africa , Central Asia ,  Europe , Central America, Eastern Europe , South of  USA",Matched after trimming/case normalisation
+Order State,Order State,State of the region where the order is delivered,Matched after trimming/case normalisation
+Order Status,Order Status,"Order Status : COMPLETE , PENDING , CLOSED , PENDING_PAYMENT ,CANCELED , PROCESSING ,SUSPECTED_FRAUD ,ON_HOLD ,PAYMENT_REVIEW",Matched after trimming/case normalisation
+Order Zipcode,,,No matching dictionary entry
+Product Card Id,Product Card Id,Product code,Matched after trimming/case normalisation
+Product Category Id,Product Category Id,Product category code,Matched after trimming/case normalisation
+Product Description,Product Description,Product Description,Matched after trimming/case normalisation
+Product Image,Product Image,Link of visit and purchase of the product,Matched after trimming/case normalisation
+Product Name,Product Name,Product Name,Matched after trimming/case normalisation
+Product Price,Product Price,Product Price,Matched after trimming/case normalisation
+Product Status,Product Status,"Status of the product stock :If it is 1 not available , 0 the product is available",Matched after trimming/case normalisation
+shipping date (DateOrders),Shipping date (DateOrders),Exact date and time of shipment,Matched after trimming/case normalisation
+Shipping Mode,Shipping Mode,"The following shipping modes are presented : Standard Class , First Class , Second Class , Same Day",Matched after trimming/case normalisation

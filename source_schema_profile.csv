@@ -1,0 +1,54 @@
+column,dtype,non_null_count,missing_count,unique_values
+Type,object,180519,0,4
+Days for shipping (real),int64,180519,0,7
+Days for shipment (scheduled),int64,180519,0,4
+Benefit per order,float64,180519,0,21998
+Sales per customer,float64,180519,0,2927
+Delivery Status,object,180519,0,4
+Late_delivery_risk,int64,180519,0,2
+Category Id,int64,180519,0,51
+Category Name,object,180519,0,50
+Customer City,object,180519,0,563
+Customer Country,object,180519,0,2
+Customer Email,object,180519,0,1
+Customer Fname,object,180519,0,782
+Customer Id,int64,180519,0,20652
+Customer Lname,object,180511,8,1109
+Customer Password,object,180519,0,1
+Customer Segment,object,180519,0,3
+Customer State,object,180519,0,46
+Customer Street,object,180519,0,7458
+Customer Zipcode,float64,180516,3,995
+Department Id,int64,180519,0,11
+Department Name,object,180519,0,11
+Latitude,float64,180519,0,11250
+Longitude,float64,180519,0,4487
+Market,object,180519,0,5
+Order City,object,180519,0,3597
+Order Country,object,180519,0,164
+Order Customer Id,int64,180519,0,20652
+order date (DateOrders),object,180519,0,65752
+Order Id,int64,180519,0,65752
+Order Item Cardprod Id,int64,180519,0,118
+Order Item Discount,float64,180519,0,1017
+Order Item Discount Rate,float64,180519,0,18
+Order Item Id,int64,180519,0,180519
+Order Item Product Price,float64,180519,0,75
+Order Item Profit Ratio,float64,180519,0,162
+Order Item Quantity,int64,180519,0,5
+Sales,float64,180519,0,193
+Order Item Total,float64,180519,0,2927
+Order Profit Per Order,float64,180519,0,21998
+Order Region,object,180519,0,23
+Order State,object,180519,0,1089
+Order Status,object,180519,0,9
+Order Zipcode,float64,24840,155679,609
+Product Card Id,int64,180519,0,118
+Product Category Id,int64,180519,0,51
+Product Description,float64,0,180519,0
+Product Image,object,180519,0,118
+Product Name,object,180519,0,118
+Product Price,float64,180519,0,75
+Product Status,int64,180519,0,1
+shipping date (DateOrders),object,180519,0,63701
+Shipping Mode,object,180519,0,4

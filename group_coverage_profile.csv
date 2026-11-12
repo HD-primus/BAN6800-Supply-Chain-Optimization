@@ -1,0 +1,36 @@
+field,group,records,share_pct
+Customer Segment,Consumer,89420,51.758
+Customer Segment,Corporate,52528,30.404
+Customer Segment,Home Office,30817,17.838
+Market,LATAM,49309,28.541
+Market,Europe,48090,27.835
+Market,Pacific Asia,39585,22.913
+Market,USCA,24627,14.255
+Market,Africa,11154,6.456
+Order Region,Central America,27174,15.729
+Order Region,Western Europe,25867,14.972
+Order Region,South America,14184,8.21
+Order Region,Oceania,9733,5.634
+Order Region,Northern Europe,9408,5.446
+Order Region,Southeast Asia,9136,5.288
+Order Region,Southern Europe,9030,5.227
+Order Region,Caribbean,7951,4.602
+Order Region,West of USA,7595,4.396
+Order Region,South Asia,7455,4.315
+Order Region,Eastern Asia,6973,4.036
+Order Region,East of USA,6617,3.83
+Order Region,West Asia,5746,3.326
+Order Region,US Center,5653,3.272
+Order Region,South of  USA,3855,2.231
+Order Region,Eastern Europe,3785,2.191
+Order Region,West Africa,3571,2.067
+Order Region,North Africa,3086,1.786
+Order Region,East Africa,1781,1.031
+Order Region,Central Africa,1616,0.935
+Order Region,Southern Africa,1100,0.637
+Order Region,Canada,907,0.525
+Order Region,Central Asia,542,0.314
+Shipping Mode,Standard Class,103153,59.707
+Shipping Mode,Second Class,33806,19.568
+Shipping Mode,First Class,26513,15.346
+Shipping Mode,Same Day,9293,5.379

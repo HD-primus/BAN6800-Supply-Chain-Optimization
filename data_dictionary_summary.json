@@ -1,0 +1,11 @@
+{
+  "dataset_columns": 53,
+  "dictionary_entries": 52,
+  "matched_columns": 52,
+  "unmatched_dataset_columns": [
+    "Order Zipcode"
+  ],
+  "unmatched_dictionary_entries": [],
+  "matching_rule": "trim whitespace and compare field names case-insensitively after removing punctuation/spacing",
+  "note": "shipping date (DateOrders) matches Shipping date (DateOrders) after case normalisation; Order Zipcode has no dictionary description."
+}

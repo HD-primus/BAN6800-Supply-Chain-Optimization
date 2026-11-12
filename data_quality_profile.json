@@ -1,0 +1,84 @@
+{
+  "file": "DataCoSupplyChainDataset.csv",
+  "encoding_used": "latin-1",
+  "rows": 180519,
+  "columns": 53,
+  "exact_duplicate_rows": 0,
+  "unique_order_item_ids": 180519,
+  "duplicate_order_item_ids": 0,
+  "missing_cells_total": 336209,
+  "missing_by_column": {
+    "Customer Lname": {
+      "count": 8,
+      "percentage": 0.004
+    },
+    "Customer Zipcode": {
+      "count": 3,
+      "percentage": 0.002
+    },
+    "Order Zipcode": {
+      "count": 155679,
+      "percentage": 86.24
+    },
+    "Product Description": {
+      "count": 180519,
+      "percentage": 100.0
+    }
+  },
+  "date_parse": {
+    "order date (DateOrders)": {
+      "valid": 180519,
+      "invalid": 0
+    },
+    "shipping date (DateOrders)": {
+      "valid": 180519,
+      "invalid": 0
+    }
+  },
+  "delivery_status_counts": {
+    "Late delivery": 98977,
+    "Advance shipping": 41592,
+    "Shipping on time": 32196,
+    "Shipping canceled": 7754
+  },
+  "late_delivery_risk_counts": {
+    "1": 98977,
+    "0": 81542
+  },
+  "late_risk_matches_status": true,
+  "cancelled_order_items_excluded": 7754,
+  "risk_vs_actual_days_mismatch_rows": 4423,
+  "model_ready_rows": 172765,
+  "model_ready_columns_including_target": 32,
+  "model_ready_feature_columns": 31,
+  "model_ready_target_counts": {
+    "1": 98977,
+    "0": 73788
+  },
+  "model_ready_excluded_columns": [
+    "Days for shipping (real)",
+    "Delivery Status",
+    "Late_delivery_risk",
+    "Customer City",
+    "Customer Email",
+    "Customer Fname",
+    "Customer Id",
+    "Customer Lname",
+    "Customer Password",
+    "Customer State",
+    "Customer Street",
+    "Customer Zipcode",
+    "Latitude",
+    "Longitude",
+    "Order Customer Id",
+    "Order Id",
+    "Order Item Id",
+    "Order Status",
+    "Order Zipcode",
+    "Product Description",
+    "Product Image",
+    "shipping date (DateOrders)"
+  ],
+  "output_sha256": "f4ecf57a7a2cc4e8aaae758176fbd732c54c8f46353a5f2a25bb551ef73e2f21",
+  "interpretation": "The supplied Late_delivery_risk label is used for non-cancelled records and cross-checked against Delivery Status. The actual-days comparison is not used as the label because it flags cancelled rows."
+}

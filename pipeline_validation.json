@@ -1,0 +1,23 @@
+{
+  "success": true,
+  "row_count": 172765,
+  "column_count": 32,
+  "target_counts": {
+    "1": 98977,
+    "0": 73788
+  },
+  "checks": {
+    "minimum_rows_5000": true,
+    "target_present": true,
+    "target_non_null": true,
+    "target_binary": true,
+    "unique_column_names": true,
+    "no_direct_identifiers": true,
+    "no_post_outcome_fields": true,
+    "no_missing_values": true
+  },
+  "output_file": "data/processed/model_ready.csv.gz",
+  "output_sha256": "f4ecf57a7a2cc4e8aaae758176fbd732c54c8f46353a5f2a25bb551ef73e2f21",
+  "great_expectations_executed": false,
+  "validation_note": "Local pandas assertions and pytest are executed; Great Expectations requires separate installation and execution."
+}
