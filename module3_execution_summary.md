@@ -10,11 +10,11 @@
 - Published 172,765 rows × 32 columns (one target plus 31 candidate predictors).
 - Removed direct customer identifiers and post-outcome/label fields from the model-ready output.
 - Eight local pandas validation assertions passed; all three pytest tests passed.
+- Great Expectations suite execution.
+- GitHub publication and repository URL verification.
 
 ## Not completed / do not claim as executed
-- Great Expectations suite execution.
 - Airflow scheduler/DAG execution.
-- GitHub publication and repository URL verification.
 - Shell ERP/WMS/TMS integration.
 
 ## Output interpretation
