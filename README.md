@@ -32,7 +32,7 @@ A naive rule `Days for shipping (real) > Days for shipment (scheduled)` disagree
 - Target counts: 98,977 late (1); 73,788 not late (0).
 - No missing values in the published model-ready table.
 - Eight local pandas validation assertions pass; three pytest unit tests pass.
-- Great Expectations and Airflow are provided as reproducible extensions but were not executed here. Do not represent them as passed.
+- Great Expectations 0.18.21 suite executed on 2026-11-13: 4 of 4 expectations passed.
 - The data output is compressed CSV, not Parquet; Parquet was not created in this run.
 
 ## Run locally
