@@ -18,6 +18,6 @@
   },
   "output_file": "data/processed/model_ready.csv.gz",
   "output_sha256": "f4ecf57a7a2cc4e8aaae758176fbd732c54c8f46353a5f2a25bb551ef73e2f21",
-  "great_expectations_executed": false,
+  "great_expectations_executed": true,
   "validation_note": "Local pandas assertions and pytest are executed; Great Expectations requires separate installation and execution."
 }
