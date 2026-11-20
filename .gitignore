@@ -218,3 +218,6 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Private local datasets and experiment databases
+DataCoSupplyChainDataset.csv
+mlflow.db

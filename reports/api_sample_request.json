@@ -1,0 +1,15 @@
+{
+  "order_datetime": "2018-01-31T22:56:00",
+  "Type": "DEBIT",
+  "Days_for_shipment_scheduled": 1,
+  "Order_Item_Discount_Rate": 0.04,
+  "Product_Price": 327.75,
+  "Order_Item_Quantity": 1,
+  "Category_Name": "Sporting Goods",
+  "Customer_Segment": "Consumer",
+  "Department_Name": "Fitness",
+  "Market": "Pacific Asia",
+  "Order_Region": "Southeast Asia",
+  "Product_Name": "Smart watch",
+  "Shipping_Mode": "First Class"
+}

@@ -1,0 +1,134 @@
+feature,mean_abs_shap
+cat__Shipping Mode_First Class,0.9435177
+num__Days for shipment (scheduled),0.69271344
+cat__Shipping Mode_Second Class,0.1830913
+num__order_hour,0.15534092
+cat__Shipping Mode_Standard Class,0.031608053
+num__order_day,0.019641854
+cat__Order Region_Western Europe,0.014397243
+num__order_dayofweek,0.013451493
+cat__Order Region_Caribbean,0.004746137
+cat__Customer Segment_Corporate,0.0043951496
+num__Order Item Discount Rate,0.0038297495
+cat__Order Region_Southern Europe,0.0036270388
+num__Product Price,0.0035463735
+cat__Customer Segment_Home Office,0.0033167945
+num__order_year,0.0032135337
+cat__Type_CASH,0.0031233802
+cat__Type_PAYMENT,0.0023261034
+num__order_month,0.002181604
+cat__Order Region_Central America,0.0016218942
+cat__Shipping Mode_Same Day,0.0015911927
+cat__Order Region_Canada,0.0013353594
+cat__Order Region_Eastern Asia,0.0012860784
+cat__Order Region_Central Africa,0.0010689892
+cat__Type_TRANSFER,0.0009453454
+cat__Market_LATAM,0.0008834093
+cat__Market_Europe,0.0008516337
+cat__Category Name_Camping & Hiking,0.00079852546
+cat__Order Region_Southeast Asia,0.00074520224
+cat__Order Region_East of USA,0.0006895844
+cat__Order Region_Northern Europe,0.0006585885
+cat__Type_DEBIT,0.00062195776
+cat__Category Name_Lacrosse,0.00060224376
+cat__Order Region_Eastern Europe,0.0005908799
+cat__Order Region_US Center,0.00058736606
+cat__Category Name_Women's Apparel,0.0005463892
+num__order_quarter,0.0005310245
+cat__Order Region_Oceania,0.0005196654
+cat__Order Region_South of  USA,0.0004954606
+cat__Department Name_Apparel,0.00047118054
+num__Order Item Quantity,0.000465268
+cat__Category Name_Cleats,0.0003996598
+cat__Order Region_West Africa,0.00039960336
+cat__Order Region_South Asia,0.00035079688
+cat__Category Name_Men's Footwear,0.00034227993
+cat__Order Region_West Asia,0.00028829623
+cat__Market_USCA,0.00027076885
+cat__Order Region_Central Asia,0.00025267512
+cat__Order Region_North Africa,0.0002477214
+cat__Product Name_adidas Men's Germany Black Crest Away Tee,0.00022871884
+cat__Product Name_Titleist Pro V1 High Numbers Personalized Gol,0.00021650312
+cat__Product Name_Team Golf St. Louis Cardinals Putter Grip,0.0002135822
+cat__Product Name_Diamondback Women's Serene Classic Comfort Bi,0.00020814009
+cat__Product Name_Hirzl Women's Soffft Flex Golf Glove,0.0002054836
+cat__Market_Pacific Asia,0.00020171858
+cat__Category Name_Cardio Equipment,0.00016972578
+cat__Customer Segment_Consumer,0.00016174902
+cat__Order Region_West of USA,0.0001610387
+cat__Department Name_Outdoors,0.00015952117
+cat__Department Name_Footwear,8.7762084e-05
+cat__Product Name_adidas Men's F10 Messi TRX FG Soccer Cleat,7.6247576e-05
+cat__Order Region_East Africa,6.953611e-05
+cat__Product Name_Nike Men's Free 5.0+ Running Shoe,6.477676e-05
+cat__Market_Africa,5.817277e-05
+cat__Product Name_Glove It Women's Mod Oval Golf Glove,4.6715664e-05
+cat__Order Region_Southern Africa,3.7723392e-05
+cat__Product Name_Bridgestone e6 Straight Distance NFL Carolina,3.475911e-05
+cat__Product Name_Under Armour Women's Ignite PIP VI Slide,3.0725216e-05
+cat__Product Name_Bridgestone e6 Straight Distance NFL Tennesse,2.8020972e-05
+cat__Category Name_Hunting & Shooting,2.6290485e-05
+cat__Category Name_Hockey,1.6665535e-05
+cat__Product Name_Team Golf Texas Longhorns Putter Grip,1.4686215e-05
+cat__Category Name_Water Sports,1.2729689e-05
+cat__Product Name_Pelican Sunstream 100 Kayak,1.1514803e-05
+cat__Order Region_South America,0.0
+cat__Department Name_Fan Shop,0.0
+cat__Department Name_Fitness,0.0
+cat__Category Name_Fitness Accessories,0.0
+cat__Category Name_Golf Shoes,0.0
+cat__Category Name_Golf Gloves,0.0
+cat__Category Name_Golf Balls,0.0
+cat__Category Name_Golf Apparel,0.0
+cat__Category Name_Indoor/Outdoor Games,0.0
+cat__Category Name_Shop By Sport,0.0
+cat__Category Name_Tennis & Racquet,0.0
+cat__Category Name_Trade-In,0.0
+cat__Category Name_Baseball & Softball,0.0
+cat__Category Name_Accessories,0.0
+cat__Category Name_Boxing & MMA,0.0
+cat__Department Name_Golf,0.0
+cat__Category Name_Electronics,0.0
+cat__Category Name_Fishing,0.0
+cat__Category Name_Girls' Apparel,0.0
+cat__Product Name_Glove It Women's Mod Oval 3-Zip Carry All Gol,0.0
+cat__Product Name_Field & Stream Sportsman 16 Gun Fire Safe,0.0
+cat__Product Name_ENO Atlas Hammock Straps,0.0
+cat__Product Name_Columbia Men's PFG Anchor Tough T-Shirt,0.0
+cat__Product Name_Glove It Imperial Golf Towel,0.0
+cat__Product Name_Clicgear Rovic Cooler Bag,0.0
+cat__Product Name_Bag Boy Beverage Holder,0.0
+cat__Product Name_Clicgear 8.0 Shoe Brush,0.0
+cat__Product Name_Bridgestone e6 Straight Distance NFL San Dieg,0.0
+cat__Product Name_Nike Women's Legend V-Neck T-Shirt,0.0
+cat__Product Name_Nike Men's Dri-FIT Victory Golf Polo,0.0
+cat__Product Name_Nike Men's Deutschland Weltmeister Winners Bl,0.0
+cat__Product Name_Nike Men's Comfort 2 Slide,0.0
+cat__Product Name_Nike Dri-FIT Crew Sock 6 Pack,0.0
+cat__Product Name_Nike Men's CJ Elite 2 TD Football Cleat,0.0
+cat__Product Name_LIJA Women's Eyelet Sleeveless Golf Polo,0.0
+cat__Product Name_Hirzl Women's Hybrid Golf Glove,0.0
+cat__Product Name_Glove It Urban Brick Golf Towel,0.0
+cat__Product Name_Hirzl Men's Hybrid Golf Glove,0.0
+cat__Product Name_Glove It Women's Imperial Golf Glove,0.0
+cat__Product Name_Team Golf San Francisco Giants Putter Grip,0.0
+cat__Product Name_TYR Boys' Team Digi Jammer,0.0
+cat__Product Name_Nike Women's Tempo Shorts,0.0
+cat__Product Name_O'Brien Men's Neoprene Life Vest,0.0
+cat__Product Name_Perfect Fitness Perfect Rip Deck,0.0
+cat__Product Name_Top Flite Women's 2014 XL Hybrid,0.0
+cat__Product Name_Titleist Pro V1x High Numbers Personalized Go,0.0
+cat__Product Name_Titleist Pro V1x High Numbers Golf Balls,0.0
+cat__Product Name_Titleist Pro V1x Golf Balls,0.0
+cat__Product Name_Team Golf Tennessee Volunteers Putter Grip,0.0
+cat__Product Name_Team Golf New England Patriots Putter Grip,0.0
+cat__Product Name_Team Golf Pittsburgh Steelers Putter Grip,0.0
+cat__Product Name_Under Armour Girls' Toddler Spine Surge Runni,0.0
+cat__Product Name_Under Armour Women's Micro G Skulpt Running S,0.0
+cat__Product Name_Under Armour Women's Ignite Slide,0.0
+cat__Product Name_Under Armour Men's Tech II T-Shirt,0.0
+cat__Product Name_Under Armour Men's Compression EV SL Slide,0.0
+cat__Product Name_Under Armour Hustle Storm Medium Duffle Bag,0.0
+cat__Product Name_Under Armour Kids' Mercenary Slide,0.0
+cat__Product Name_adidas Youth Germany Black/Red Away Match Soc,0.0
+cat__Product Name_adidas Kids' F5 Messi FG Soccer Cleat,0.0

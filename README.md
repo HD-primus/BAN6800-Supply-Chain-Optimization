@@ -63,3 +63,45 @@ Constante, F., Silva, F., & Pereira, A. (2019). *DataCo SMART SUPPLY CHAIN FOR B
 National Institute of Standards and Technology. (2023). *Artificial Intelligence Risk Management Framework (AI RMF 1.0).* https://doi.org/10.6028/NIST.AI.100-1
 
 Federal Republic of Nigeria. (2023). *Nigeria Data Protection Act, 2023.*
+
+---
+
+## Module 5 – Interactive Supply Chain Risk Dashboard
+
+This project includes an interactive Streamlit dashboard built using the saved XGBoost model developed during Module 4.
+
+### Dashboard features
+
+- **Overview:** Summary of model performance and project outputs.
+- **Prediction Explorer:** Allows users to explore late-delivery risk predictions.
+- **Explainability:** Presents SHAP-based model explanations.
+- **Operational Fairness:** Displays fairness assessment results across relevant groups.
+- **Limitations and Governance:** Documents model limitations, responsible use and governance considerations.
+
+### Run the dashboard locally
+
+1. Install the dependencies:
+
+   `python -m pip install -r requirements.txt`
+
+2. Launch the dashboard:
+
+   `python -m streamlit run app.py`
+
+3. Open the local URL displayed in your terminal.
+
+### Model artifacts and reports
+
+The dashboard uses:
+
+- `models/model_bundle.joblib`
+- `reports/model_validation_metrics.json`
+- `reports/fairness_summary.csv`
+- `reports/shap_global_importance.csv`
+- `reports/shap_local_explanation.csv`
+- Other supporting validation and governance reports.
+
+### Data and model limitations
+
+The DataCo Smart Supply Chain dataset is a public proxy dataset used for academic analysis. It does not represent Shell Petrochemicals' internal operational data. Business improvement figures presented in the project proposal are targets, not independently measured outcomes.
+

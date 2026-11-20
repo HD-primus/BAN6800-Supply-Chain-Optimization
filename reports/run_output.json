@@ -1,0 +1,210 @@
+{
+  "dataset_shape": [
+    172765,
+    39
+  ],
+  "split": {
+    "train": 138212,
+    "validation": 27643,
+    "test": 34553
+  },
+  "validation_comparison": [
+    {
+      "model": "Logistic Regression",
+      "accuracy": 0.6958723727525956,
+      "precision": 0.8844625679631953,
+      "recall": 0.5367045238246304,
+      "f1": 0.668035538005923,
+      "roc_auc": 0.7427610158607523,
+      "pr_auc": 0.834560107571638,
+      "fit_seconds": 1.9570550918579102
+    },
+    {
+      "model": "Random Forest",
+      "accuracy": 0.7210867127301668,
+      "precision": 0.8923106909657929,
+      "recall": 0.5809276061163632,
+      "f1": 0.7037122434862808,
+      "roc_auc": 0.7706824155354355,
+      "pr_auc": 0.8509700692543418,
+      "fit_seconds": 6.467327833175659
+    },
+    {
+      "model": "XGBoost",
+      "accuracy": 0.7207249574937598,
+      "precision": 0.8892438764643238,
+      "recall": 0.582767590888903,
+      "f1": 0.7041011881947106,
+      "roc_auc": 0.7732322093377212,
+      "pr_auc": 0.8535798901024502,
+      "fit_seconds": 0.505746603012085
+    },
+    {
+      "model": "Majority baseline",
+      "accuracy": 0.5701624281011468,
+      "precision": 0.5701624281011468,
+      "recall": 1.0,
+      "f1": 0.7262464289005621,
+      "roc_auc": 0.5,
+      "pr_auc": 0.5701624281011468,
+      "fit_seconds": NaN
+    }
+  ],
+  "test_metrics": {
+    "accuracy": 0.6584667033253263,
+    "precision": 0.6587361480716527,
+    "recall": 0.8378801657067798,
+    "f1": 0.7375864445976296,
+    "roc_auc": 0.7789014025162473,
+    "pr_auc": 0.8582173809477645,
+    "brier_score": 0.17447058856487274,
+    "decision_threshold": 0.4,
+    "fit_seconds": 0.6028108596801758,
+    "n_development": 138212,
+    "n_inner_train": 110569,
+    "n_validation": 27643,
+    "n_test": 34553,
+    "development_start": "2015-01-01 00:00:00",
+    "development_end": "2017-04-22 03:43:00",
+    "inner_train_start": "2015-01-01 00:00:00",
+    "inner_train_end": "2016-11-05 05:42:00",
+    "validation_start": "2016-11-05 05:42:00",
+    "validation_end": "2017-04-22 03:43:00",
+    "test_start": "2017-04-22 03:43:00",
+    "test_end": "2018-01-31 23:38:00",
+    "test_late_rate": 0.572859086041733,
+    "target_counts_test": {
+      "0": 14759,
+      "1": 19794
+    }
+  },
+  "confusion_matrix": [
+    [
+      6167,
+      8592
+    ],
+    [
+      3209,
+      16585
+    ]
+  ],
+  "fairness_summary": [
+    {
+      "group_dimension": "Customer Segment",
+      "observed_groups": 3,
+      "min_high_risk_flag_rate": 0.6842004955212503,
+      "max_high_risk_flag_rate": 0.7560483870967742,
+      "disparate_impact_ratio_min_over_max": 0.9049691887427737,
+      "equal_opportunity_TPR_gap": 0.046052020141464145,
+      "FPR_gap": 0.10281076077086859
+    },
+    {
+      "group_dimension": "Market",
+      "observed_groups": 3,
+      "min_high_risk_flag_rate": 0.6191765980498375,
+      "max_high_risk_flag_rate": 0.785237928095071,
+      "disparate_impact_ratio_min_over_max": 0.7885210022291129,
+      "equal_opportunity_TPR_gap": 0.12376523826066954,
+      "FPR_gap": 0.21580735006748386
+    },
+    {
+      "group_dimension": "Order Region",
+      "observed_groups": 10,
+      "min_high_risk_flag_rate": 0.35463756819953235,
+      "max_high_risk_flag_rate": 0.8769740193581254,
+      "disparate_impact_ratio_min_over_max": 0.4043877701862805,
+      "equal_opportunity_TPR_gap": 0.3663253272686815,
+      "FPR_gap": 0.6954891012422048
+    },
+    {
+      "group_dimension": "Shipping Mode",
+      "observed_groups": 4,
+      "min_high_risk_flag_rate": 0.5292225201072386,
+      "max_high_risk_flag_rate": 1.0,
+      "disparate_impact_ratio_min_over_max": 0.5292225201072386,
+      "equal_opportunity_TPR_gap": 0.3935009196811772,
+      "FPR_gap": 1.0
+    }
+  ],
+  "ablation": [
+    {
+      "scenario": "Full feature set",
+      "accuracy": 0.6584667033253263,
+      "precision": 0.6587361480716527,
+      "recall": 0.8378801657067798,
+      "f1": 0.7375864445976296,
+      "roc_auc": 0.7789014025162473,
+      "pr_auc": 0.8582173809477645
+    },
+    {
+      "scenario": "Without scheduled-days feature",
+      "accuracy": 0.6580904697131942,
+      "precision": 0.6606668277361681,
+      "recall": 0.8288875416792968,
+      "f1": 0.7352783006184458,
+      "roc_auc": 0.7779239863938221,
+      "pr_auc": 0.8578039677066861
+    },
+    {
+      "scenario": "Without shipping-mode feature",
+      "accuracy": 0.6694064191242439,
+      "precision": 0.6762241589827797,
+      "recall": 0.8114074972213802,
+      "f1": 0.7376736709151452,
+      "roc_auc": 0.7814083885074606,
+      "pr_auc": 0.8595902483841721
+    },
+    {
+      "scenario": "Without both scheduling features",
+      "accuracy": 0.572859086041733,
+      "precision": 0.572859086041733,
+      "recall": 1.0,
+      "f1": 0.7284302721401366,
+      "roc_auc": 0.5257683409392506,
+      "pr_auc": 0.5909731097611106
+    }
+  ],
+  "top_shap": [
+    {
+      "feature": "cat__Shipping Mode_First Class",
+      "mean_abs_shap": 0.9435176849365234
+    },
+    {
+      "feature": "num__Days for shipment (scheduled)",
+      "mean_abs_shap": 0.6927134394645691
+    },
+    {
+      "feature": "cat__Shipping Mode_Second Class",
+      "mean_abs_shap": 0.18309129774570465
+    },
+    {
+      "feature": "num__order_hour",
+      "mean_abs_shap": 0.15534092485904694
+    },
+    {
+      "feature": "cat__Shipping Mode_Standard Class",
+      "mean_abs_shap": 0.03160805255174637
+    },
+    {
+      "feature": "num__order_day",
+      "mean_abs_shap": 0.019641853868961334
+    },
+    {
+      "feature": "cat__Order Region_Western Europe",
+      "mean_abs_shap": 0.014397243037819862
+    },
+    {
+      "feature": "num__order_dayofweek",
+      "mean_abs_shap": 0.013451493345201015
+    },
+    {
+      "feature": "cat__Order Region_Caribbean",
+      "mean_abs_shap": 0.00474613718688488
+    },
+    {
+      "feature": "cat__Customer Segment_Corporate",
+      "mean_abs_shap": 0.004395149648189545
+    }
+  ],
+  "mlflow_status": "MLflow not executed in this runtime: mlflow package is not installed and package index is unreachable."
+}

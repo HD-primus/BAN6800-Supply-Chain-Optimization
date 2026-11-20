@@ -1,0 +1,16 @@
+feature,shap_value,abs_shap
+cat__Shipping Mode_First Class,5.645626,5.645626
+num__Days for shipment (scheduled),1.5970668,1.5970668
+num__order_hour,0.08604004,0.08604004
+cat__Category Name_Lacrosse,0.062797636,0.062797636
+cat__Shipping Mode_Standard Class,0.06055548,0.06055548
+cat__Shipping Mode_Second Class,-0.042525113,0.042525113
+num__order_day,-0.010953302,0.010953302
+cat__Market_Europe,0.005035741,0.005035741
+cat__Type_CASH,-0.003997315,0.003997315
+num__Order Item Discount Rate,0.0030973053,0.0030973053
+num__order_month,0.002592831,0.002592831
+cat__Order Region_Western Europe,-0.0022237927,0.0022237927
+cat__Category Name_Women's Apparel,0.0020971578,0.0020971578
+cat__Order Region_Central America,-0.0017201821,0.0017201821
+cat__Order Region_Caribbean,0.001670539,0.001670539

@@ -1,5 +1,17 @@
+
 pandas==2.2.3
 pytest==8.3.4
-# Optional quality framework: install separately if running the GX validation script
+
+# Optional quality framework for data validation
 great-expectations==0.18.21
-# Airflow is environment-specific; install using the official constraints file for your Python version.
+
+# Module 5 dashboard
+streamlit>=1.36
+plotly>=5.20
+numpy>=1.26
+scikit-learn==1.8.0
+xgboost==3.4.1
+joblib>=1.4
+
+# Airflow is environment-specific; install using the official
+# constraints file for your Python version.

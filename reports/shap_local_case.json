@@ -1,0 +1,13 @@
+{
+  "test_row_index": 4105,
+  "predicted_late_probability": 0.9995519518852234,
+  "actual_late": 1,
+  "threshold": 0.4,
+  "input_context": {
+    "Shipping Mode": "First Class",
+    "Days for shipment (scheduled)": 1,
+    "Market": "LATAM",
+    "Order Region": "Central America",
+    "Customer Segment": "Consumer"
+  }
+}
